@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>registration Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>REGISTRATION FORM</h1>
+  <p>It's free and only take a minute of your time</p>
+  <form action="login.html">
+    <fieldset>
+      <label for="first">First Name <input type="text" name="first-name" id="first" maxlength="20" minlength="3"
+          required> </label>
+      <label for="last">Last Name <input type="text" name="last-name" id="last" maxlength="20" minlength="3"
+          required></label>
+      <label for="phone">Phone Number <input type="tel" name="phone" id="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{2}" placeholder="123-234-567-89" required></label>
+      <label for="mail">Email <input type="email" name="email" id="mail" required></label>
+      <label>Gender
+        <select name="referer" id="gender">
+          <option value=" ">(select one)</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+
+      <label for="birth">Date of Birth <input type="date" name="date" id="birth" max="01-01-1960" min="01-01-2020"
+          required>
+        <label for="color">Favourite Color <input type="color" name="color" id="color" required></label>
+        <label for="password">Password <input type="password" name="password" pattern="[a-z0-5]{8}" id="password"
+            title="must contain only 8 characters of  5 lowercase and 3 numbers" required></label>
+        <label for="confirm">Confirm Password <input type="password" name="confirm" pattern="[a-z0-5]{8}" id="confirm"
+            title="please enter the correct password" required></label>
+        <input type="submit" value="Sign Up" class="sign"></label>
+      <p>By clicking the sign up button you agree to our Terms and Conditions and Privacy Policy.</p>
+      <p>Already have an account? <a href="/login.html">Log in</a></p>
+    </fieldset>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      background-color:darkcyan;
+  }
+  h1, p{
+      text-align:center;
+      margin: 16px auto;
+  }
+  form{
+      margin: 0 auto;
+      width: 60%;
+      padding-bottom: 20px;
+      max-width:500px;
+      min-width:300px;
+  
+  }
+  label{
+      display: block;
+      margin:20px 0;
+  }
+  input{
+      display: block;
+      margin: 10px 0;
+      width: 250px;
+      height: 30px;
+  }
+  .gender{
+      display: inline;
+      width:unset;
+      vertical-align: middle;
+      margin:0;
+  }
+  fieldset{
+      border: none;
+  
+  }
+  .sign{
+      width:100px;
+      border-radius: 5px;
+      border-style: none;
+  }
+  select{
+      width: 250px;
+      height: 35px;
+  }

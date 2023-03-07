@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <h1>Please Fill Login Details</h1>
+  <form action="success.html">
+    <fieldset>
+      <label for="mail">Email <input type="email" name="email" id="mail" required></label>
+      <label for="password">Password <input type="password" name="password" pattern="[a-z0-5]{8}" id="password"
+          title="must contain only 8 characters of 5 lowercase and 3 numbers" required></label>
+      <input type="submit" id="submit-btn" value="Login" class="login">
+      <p class="account">Don't have an account? <a href="/index.html">Register</a></p>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
